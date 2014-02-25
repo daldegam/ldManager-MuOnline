@@ -1,0 +1,66 @@
+div.sexy-tooltip {
+    font-family:Verdana,Arial,Helvetica,sans-serif;
+    font-size:0.9em;
+    font-weight:normal;
+    color:#333333;
+}
+
+div.sexy-tooltip .tooltip-tl {
+	background: url(msn/tl.png) 0 bottom no-repeat;
+	position: relative; /* for close button */
+}
+
+div.sexy-tooltip .tooltip-tr {
+	padding: 0px 15px 0px 15px;
+	background: url(msn/tr.png) 100% bottom no-repeat;
+}
+
+div.sexy-tooltip .tooltip-t {
+	background: url(msn/t.png) 0 bottom repeat-x;
+	height:25px;
+}
+
+div.sexy-tooltip .tooltip-l {
+	background: url(msn/l.png) 0 0 repeat-y;
+}
+
+div.sexy-tooltip .tooltip-r {
+	padding: 0px 15px 0px 15px;
+	background: url(msn/r.png) 100% 0 repeat-y;
+}
+
+div.sexy-tooltip .tooltip-m {
+	background: #dae9f8;
+	overflow: hidden;
+	width:100%;
+}
+
+div.sexy-tooltip .tooltip-bl {
+	background: url(msn/bl.png) 0 0 no-repeat;
+}
+
+div.sexy-tooltip .tooltip-br {
+	padding: 0px 15px 0px 15px;
+	background: url(msn/br.png) 100% 0 no-repeat;
+}
+
+div.sexy-tooltip .tooltip-b {
+	background: url(msn/b.png) 0 0 repeat-x;
+	height:25px;
+}
+
+div.sexy-tooltip a.tooltip-close {
+    display:block;
+    overflow:hidden;
+	position: absolute;
+	top: 21px;
+	right: 10px;
+	width: 18px;
+	height: 18px;
+	background: url(msn/close.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+
+div.sexy-tooltip a.tooltip-close span {
+    display:none;
+}

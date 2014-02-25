@@ -1,0 +1,91 @@
+div.sexy-tooltip .tooltip-tl {
+	background: url(blue/tl.png) 0 bottom no-repeat;
+	position: relative; /* for close button */
+}
+
+div.sexy-tooltip .tooltip-tr {
+	padding: 0px 15px 0px 15px;
+	background: url(blue/tr.png) 100% bottom no-repeat;
+}
+
+div.sexy-tooltip .tooltip-t {
+	background: url(blue/t.png) 0 bottom repeat-x;
+	height:25px;
+}
+
+div.sexy-tooltip .tooltip-l {
+	background: url(blue/l.png) 0 0 repeat-y;
+}
+
+div.sexy-tooltip .tooltip-r {
+	padding: 0px 15px 0px 15px;
+	background: url(blue/r.png) 100% 0 repeat-y;
+}
+
+div.sexy-tooltip .tooltip-m {
+	background: #ffffff;
+	overflow: hidden;
+	width:100%;
+}
+
+div.sexy-tooltip .tooltip-bl {
+	background: url(blue/bl.png) 0 0 no-repeat;
+}
+
+div.sexy-tooltip .tooltip-br {
+	padding: 0px 15px 0px 15px;
+	background: url(blue/br.png) 100% 0 no-repeat;
+}
+
+div.sexy-tooltip .tooltip-b {
+	background: url(blue/b.png) 0 0 repeat-x;
+	height:25px;
+}
+
+
+div.sexy-tooltip .tooltip-b .tooltip-c-arrow {
+	background: url(blue/bca.png) 50% 0 no-repeat;
+	height:25px;
+}
+
+div.sexy-tooltip .tooltip-b .tooltip-l-arrow {
+	background: url(blue/bla.png) 0 0 no-repeat;
+	height:25px;
+}
+
+div.sexy-tooltip .tooltip-b .tooltip-r-arrow {
+	background: url(blue/bra.png) 100% 0 no-repeat;
+	height:25px;
+}
+
+div.sexy-tooltip .tooltip-t .tooltip-c-arrow {
+	background: url(blue/tca.png) 50% 0 no-repeat;
+	height:25px;
+}
+
+div.sexy-tooltip .tooltip-t .tooltip-l-arrow {
+	background: url(blue/tla.png) 0 0 no-repeat;
+	height:25px;
+}
+
+div.sexy-tooltip .tooltip-t .tooltip-r-arrow {
+	background: url(blue/tra.png) 100% 0 no-repeat;
+	height:25px;
+}
+
+
+div.sexy-tooltip a.tooltip-close {
+  display:block;
+  overflow:hidden;
+	position: absolute;
+	top: 21px;
+	right: 10px;
+	width: 18px;
+	height: 18px;
+	background: url(blue/close.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+
+div.sexy-tooltip a.tooltip-close span {
+  display:none;
+}

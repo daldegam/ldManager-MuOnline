@@ -1,0 +1,96 @@
+div.sexy-tooltipCM .tooltip-tl {
+	background: none;
+	position: relative; /* for close button */
+}
+
+div.sexy-tooltipCM .tooltip-tr {
+	padding: 0px 15px 0px 15px;                             
+    background: none;
+}
+
+div.sexy-tooltipCM .tooltip-t {                            
+    background: none;
+	height:2px;
+}
+
+div.sexy-tooltipCM .tooltip-l {                       
+    background: none;
+}
+
+div.sexy-tooltipCM .tooltip-r {
+	padding: 0px 15px 0px 15px;                       
+    background: none;
+}
+
+div.sexy-tooltipCM .tooltip-m {
+	background: #000000;
+	overflow: hidden;
+	width:270px;
+    opacity: 0.85;
+    filter:alpha(opacity=85);
+    -moz-opacity: 0.85;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+div.sexy-tooltipCM .tooltip-bl {                      
+    background: none;
+}
+
+div.sexy-tooltipCM .tooltip-br {
+	padding: 0px 15px 0px 15px;                          
+    background: none;
+}
+
+div.sexy-tooltipCM .tooltip-b {                       
+    background: none;
+	height:2px;
+}
+
+
+div.sexy-tooltipCM .tooltip-b .tooltip-c-arrow {          
+    background: none;
+	height:2px;
+}
+
+div.sexy-tooltipCM .tooltip-b .tooltip-l-arrow {        
+    background: none;
+	height:2px;
+}
+
+div.sexy-tooltipCM .tooltip-b .tooltip-r-arrow {          
+    background: none;
+	height:2px;
+}
+
+div.sexy-tooltipCM .tooltip-t .tooltip-c-arrow {          
+    background: none;
+	height:2px;
+}
+
+div.sexy-tooltipCM .tooltip-t .tooltip-l-arrow {         
+    background: none;
+	height:2px;
+}
+
+div.sexy-tooltipCM .tooltip-t .tooltip-r-arrow {           
+    background: none;
+	height:2px;
+}
+
+
+div.sexy-tooltipCM a.tooltip-close {
+    display:block;
+    overflow:hidden;
+	position: absolute;
+	top: 21px; 
+	left: 240px;
+	width: 18px;
+	height: 18px;
+	background: url(dark/close.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+
+div.sexy-tooltipCM a.tooltip-close span {
+  display:none;
+}
